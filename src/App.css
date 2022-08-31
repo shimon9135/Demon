@@ -1,0 +1,56 @@
+
+.App {
+  text-align: center;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color:#282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(11px + 2vmin);
+  color: white;
+}
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.progressLabel {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Segoe UI', ui-serif;
+}
+
+.p-inputtext {
+  font-family: 'Segoe UI' , sans-serif;
+}
+
+.p-progressbar .p-progressbar-label {
+  font-family: 'Segoe UI' , sans-serif;
+  color: black;
+}
+
+.p-field * {
+  display: block;
+}
+
+label {
+  right:  50px;
+}

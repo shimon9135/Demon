@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI' , sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+html {
+  background:   #414099 ;
+}
+
+:root {
+  font-family: 'Segoe UI' , sans-serif;
+}
+
+.p-component * {
+  font-family: 'Segoe UI' , sans-serif;
+}
+
